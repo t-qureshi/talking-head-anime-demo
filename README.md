@@ -16,6 +16,10 @@ Also, the peppeteer tool requires a webcam.
 * Python >= 3.6
 * pytorch >= 1.4.0
 * dlib >= 19.19
+* if you get some error while installing dlib, then simply install 
+   * sudo apt-get install python3-dev
+   * pip install cmake
+   * pip install dlib
 * opencv-python >= 4.1.0.30
 * pillow >= 7.0.0
 * numpy >= 1.17.l2
