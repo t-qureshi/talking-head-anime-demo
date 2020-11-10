@@ -23,6 +23,7 @@ Also, the peppeteer tool requires a webcam.
 * opencv-python >= 4.1.0.30
 * pillow >= 7.0.0
 * numpy >= 1.17.l2
+* sudo apt-get install python3-tk 
 
 If you install these packages, you should be all good.
 
@@ -44,8 +45,8 @@ Once you are done with the environment, you can deactivate it with:
 
 After you cloned this repository to your machine's storage, you need to download the models: 
 
-* Download the main models from [this link](https://drive.google.com/open?id=1ajHViqyLDKFKfBtGPE5cbSGcMNa8rz8k). Unzip the file into the `data` directory under the project's root. The models are released separately with the [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/legalcode).
-* Download `shape_predictor_68_face_landmarks.dat` and save it to the `data` directory. You can download the bzip archive from [here](https://github.com/davisking/dlib-models). Do not forget to uncompress.
+* Download the main models from [this link](https://drive.google.com/u/0/uc?id=1ajHViqyLDKFKfBtGPE5cbSGcMNa8rz8k&export=download). Unzip the file into the `data` directory under the project's root. The models are released separately with the [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/legalcode).
+* Download `shape_predictor_68_face_landmarks.dat` and save it to the `data` directory. You can download the bzip archive from [here](https://github.com/davisking/dlib-models/blob/master/shape_predictor_68_face_landmarks.dat.bz2). Do not forget to uncompress.
 
 Once the downloading is done, the data directory should look like the following:
 
